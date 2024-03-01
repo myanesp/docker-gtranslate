@@ -2,7 +2,7 @@
 
 [![](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/myanesp/docker-gtranslate)
 ![](https://badgen.net/github/stars/myanesp/docker-gtranslate?icon=github&label=stars)
-![Github last-commit](https://img.shields.io/github/last-commit/myanesp/docker-granslate)
+![Github last-commit](https://img.shields.io/github/last-commit/myanesp/docker-gtranslate)
 ![Github license](https://badgen.net/github/license/myanesp/docker-gtranslate)
 
 This is a simple Docker wrapper for the Google Translate scraper [gtranslate](https://git.sr.ht/~yerinalexey/gtranslate) by [yerinalexey](https://git.sr.ht/~yerinalexey/). gtranslate is a lightweight frontend for Google Translate without trackers, developed in Go.
