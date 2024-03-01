@@ -19,7 +19,7 @@ Hello
 
 ## Use with Tor Proxy
 
-gtranslate comes with support for deploying the server and route its traffic through the [Tor Network](https://en.wikipedia.org/wiki/Tor_(network). As stated by yerinalexey on [gtranslate source code repo](https://git.sr.ht/~yerinalexey/gtranslate#using-tor), the usage of Tor has some advantages but also drawbacks:
+gtranslate comes with support for deploying the server and route its traffic through the [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)). As stated by yerinalexey on [gtranslate source code repo](https://git.sr.ht/~yerinalexey/gtranslate#using-tor), the usage of Tor has some advantages but also drawbacks:
 
 ```
 
