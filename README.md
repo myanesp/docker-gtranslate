@@ -1,6 +1,6 @@
 # Docker container for [gtranslate](https://git.sr.ht/~yerinalexey/gtranslate)
 
-![](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/myanesp/docker-gtranslate)
+![](https://badgen.net/badge/icon/github?icon=github&label)(https://github.com/myanesp/docker-gtranslate)
 ![](https://badgen.net/github/stars/myanesp/docker-gtranslate?icon=github&label=stars)
 ![Github last-commit](https://img.shields.io/github/last-commit/myanesp/docker-granslate)
 ![Github license](https://badgen.net/github/license/myanesp/docker-gtranslate)
