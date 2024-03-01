@@ -38,7 +38,10 @@ Despite that, it has some drawbacks:
 - This feature is not tested in development
 ```
 
-If you want to use this Docker image of gtranslate with support for Tor, you will have to use the
+If you want to use this Docker image of gtranslate with Tor support, you will have to use the
 [docker-compose-tor.yml](docker-compose-tor.yml) file. Download it, rename to `docker-compose.yml`, change
-the port(s) if needed, and deploy with `docker compose up -d`. This time, when you execute a translation query, 
-gtranslate will route your petition through the Tor network instead of your WAN connection.
+the port(s) if needed, and deploy with `docker compose up -d`. This Docker compose file comes along with the
+[tor-socks-proxy image](https://github.com/peterdavehello/tor-socks-proxy), that allows gtranslate to use it as a
+proxy server.
+
+This time, when you execute a translation query, gtranslate will route your petition through the Tor network instead of your WAN connection.
