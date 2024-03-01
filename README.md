@@ -11,10 +11,8 @@ you've deployed the container plus the port (i.e. `http://192.168.0.3:5000`) and
 As in the source program, you can also use the API exposed by gtranslate.
 
 ```
-
 $ curl 'http://192.168.0.3:5000/api?from=es&to=en&text=Hola'
 Hello
-
 ```
 
 ## Use with Tor Proxy
@@ -22,7 +20,6 @@ Hello
 gtranslate comes with support for deploying the server and route its traffic through the [Tor Network](https://en.wikipedia.org/wiki/Tor_(network)). As stated by yerinalexey on [gtranslate source code repo](https://git.sr.ht/~yerinalexey/gtranslate#using-tor), the usage of Tor has some advantages but also drawbacks:
 
 ```
-
 Routing requests through Tor has its benefits:
 
 - Google will have a hard time tracking gtranslate servers as they act like normal Tor users
@@ -34,7 +31,6 @@ Despite that, it has some drawbacks:
 - Might get capcha or some other junk that will block requests
 - If doing the wrong thing, you might get your server compromised (in terms of anonymity)
 - This feature is not tested in development
-
 ```
 
 If you want to use this Docker image of gtranslate with support for Tor, you will have to use the
