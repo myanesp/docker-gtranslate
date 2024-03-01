@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  gtranslate:
+    container_name: gtranslate
+    image: ghcr.io/myanesp/gtranslate
+    ports:
+      - "5000:5000"
+    command: "./gtranslate-server --user-agent 'Mozilla/5.0 (Windows NT 10.0; rv:68.0) Gecko/20100101 Firefox/68.0' --proxy 'socks5://tor-socks-proxy:9150'"
+    healthcheck:
+      test: ["CMD", "curl", "--socks5-hostname", "tor-socks-proxy:9150", "https://ipinfo.tw/ip"]
+      interval: 1m30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+      start_interval: 5s
+    restart: unless-stopped
+
+  tor-socks-proxy:
+    container_name: tor-socks-proxy
+    image: peterdavehello/tor-socks-proxy:latest
+    ports:
+      - "9150:9150/tcp"
+    restart: unless-stopped

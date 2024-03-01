@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  gtranslate:
+    container_name: gtranslate
+    image: ghcr.io/myanesp/gtranslate
+    ports:
+      - "5000:5000"
