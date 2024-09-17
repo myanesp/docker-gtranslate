@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.20.3
 
 LABEL org.opencontainers.image.title="gtranslate Docker image"
 LABEL org.opencontainers.image.description="Docker image for gtranslate, a lightweight frontend by yerinalexey for Google Translate, without tracking"
